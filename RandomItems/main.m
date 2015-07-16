@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
         item.valueInDollars=100;
         
 
-        NSLog(@"%@ %@ %@ %d", item.itemName, item.serialNumber, item.dateCreated, item.valueInDollars);
+        NSLog(@"%@",item);
         
         //Destroy the mutable array object
         items = nil;
